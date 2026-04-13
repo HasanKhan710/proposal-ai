@@ -46,7 +46,7 @@ export default function LoginPage() {
             <img src="/Logo.png" alt="Gravity One" className="login-logo-img" />
           </div>
           <h1 style={{ fontSize: '20px' }}>Proposal AI Studio</h1>
-          <p>Internal tool · Gravity One</p>
+          <p>Gravity One</p>
         </div>
 
         <form onSubmit={handleSubmit} className="login-form">
