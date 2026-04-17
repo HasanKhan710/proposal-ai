@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
