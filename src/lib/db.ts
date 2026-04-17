@@ -39,6 +39,11 @@ export interface ChunkSearchRecord {
   name: string;
 }
 
+export interface ChunkSearchRecordWithDoc extends ChunkSearchRecord {
+  document_id: string;
+  chunk_index: number;
+}
+
 let client: Client | null = null;
 let initPromise: Promise<void> | null = null;
 
@@ -387,6 +392,14 @@ export async function updateDocumentChunkCount(documentId: string, chunkCount: n
   });
 }
 
+export async function deleteAllDocuments(): Promise<void> {
+  const db = await ensureDb();
+  await db.batch([
+    'DELETE FROM chunks',
+    'DELETE FROM documents',
+  ], 'write');
+}
+
 export async function deleteDocument(id: string): Promise<void> {
   const db = await ensureDb();
   await db.batch([
@@ -411,6 +424,19 @@ export async function listChunkSearchRecords(): Promise<ChunkSearchRecord[]> {
   `);
 
   return result.rows.map((item) => item as unknown as ChunkSearchRecord);
+}
+
+export async function listChunkSearchRecordsWithDoc(): Promise<ChunkSearchRecordWithDoc[]> {
+  const db = await ensureDb();
+  const result = await db.execute(`
+    SELECT chunks.id, chunks.content, chunks.embedding, chunks.document_id,
+           chunks.chunk_index, documents.name
+    FROM chunks
+    JOIN documents ON chunks.document_id = documents.id
+    WHERE chunks.embedding IS NOT NULL
+  `);
+
+  return result.rows.map((item) => item as unknown as ChunkSearchRecordWithDoc);
 }
 
 export async function hasUserWithEmail(email: string) {

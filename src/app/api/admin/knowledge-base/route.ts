@@ -1,4 +1,4 @@
-import { deleteDocument, getDocumentById, listDocuments } from '@/lib/db';
+import { deleteAllDocuments, deleteDocument, getDocumentById, listDocuments } from '@/lib/db';
 import { getSession } from '@/lib/auth';
 import { NextResponse } from 'next/server';
 import { removeStoredFile } from '@/lib/storage';
@@ -25,14 +25,23 @@ export async function DELETE(request: Request) {
     }
 
     const { searchParams } = new URL(request.url);
-    const id = searchParams.get('id');
 
+    // Delete all documents
+    if (searchParams.get('all') === 'true') {
+      const docs = await listDocuments();
+      await deleteAllDocuments();
+      await Promise.all(docs.map(d => removeStoredFile(d.file_path)));
+      return NextResponse.json({ success: true });
+    }
+
+    // Delete single document
+    const id = searchParams.get('id');
     if (!id) return NextResponse.json({ error: 'ID required' }, { status: 400 });
 
     const document = await getDocumentById(id);
     await deleteDocument(id);
     await removeStoredFile(document?.file_path);
-    
+
     return NextResponse.json({ success: true });
   } catch (error) {
     return NextResponse.json({ error: 'Failed to delete document' }, { status: 500 });

@@ -1334,6 +1334,30 @@ button { cursor: pointer; }
   letter-spacing: 0.05em;
 }
 
+.file-badge-xlsx {
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.file-badge-pptx {
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #ffedd5;
+  color: #c2410c;
+  border: 1px solid #fed7aa;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 /* ==================== UTILITY ==================== */
 .success-text { color: var(--success); }
 .error-text   { color: var(--error); }

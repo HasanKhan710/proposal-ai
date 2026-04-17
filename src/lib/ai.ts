@@ -6,20 +6,39 @@ const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY || '',
 });
 
-export async function generateEmbedding(text: string): Promise<number[]> {
+export async function generateEmbedding(text: string, attempt = 0): Promise<number[]> {
   try {
-    // New SDK pattern: ai.models.embedContent
     const response = await ai.models.embedContent({
-      model: 'gemini-embedding-001',
+      model:    'gemini-embedding-001',
       contents: [{ parts: [{ text }] }],
     });
-    
+
     if (!response.embeddings?.[0]?.values) {
       throw new Error('Failed to generate embedding: empty values');
     }
-    
+
     return response.embeddings[0].values;
   } catch (error: any) {
+    const status = error.status ?? error.response?.status;
+
+    if (status === 429 && attempt < 2) {
+      // Parse the retry delay the API tells us to wait, capped at 90 s
+      const delaySecs = (() => {
+        try {
+          const details: any[] = error.errorDetails ?? error.error?.details ?? [];
+          const ri = details.find((d: any) => d['@type']?.endsWith('RetryInfo'));
+          if (ri?.retryDelay) {
+            return Math.min(parseFloat(ri.retryDelay), 90);
+          }
+        } catch { /* ignore */ }
+        return Math.min(30 * Math.pow(2, attempt), 90); // fallback backoff
+      })();
+
+      console.warn(`[AI] Embedding rate-limited. Waiting ${delaySecs.toFixed(0)}s before retry ${attempt + 1}/2…`);
+      await new Promise(r => setTimeout(r, delaySecs * 1000));
+      return generateEmbedding(text, attempt + 1);
+    }
+
     console.error(`[AI] Embedding error: ${error.message}`);
     throw error;
   }
@@ -115,6 +134,39 @@ export async function saveGeneratedProposal(input: {
   title: string;
 }) {
   return createProposal(input);
+}
+
+/**
+ * Non-streaming Gemini call with model fallback.
+ * Returns the response text, or throws if all models fail.
+ */
+export async function callGemini(prompt: string, systemInstruction?: string): Promise<string> {
+  const modelsToTry = [
+    'gemini-flash-latest',
+    'gemini-2.5-flash',
+    'gemma-3-12b-it',
+    'gemma-3-4b-it',
+  ];
+
+  let lastError: unknown;
+
+  for (const modelName of modelsToTry) {
+    try {
+      const response = await ai.models.generateContent({
+        model:    modelName,
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        config:   systemInstruction ? { systemInstruction } : undefined,
+      });
+      return response.text ?? '';
+    } catch (error: any) {
+      lastError = error;
+      const status = error.status ?? error.response?.status;
+      if (status === 503 || status === 429) continue;
+      throw error;
+    }
+  }
+
+  throw lastError ?? new Error('All Gemini models unavailable.');
 }
 
 export async function generateProposal(prompt: string, context: string, mode: string): Promise<any> {

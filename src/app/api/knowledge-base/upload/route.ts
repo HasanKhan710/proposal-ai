@@ -1,12 +1,12 @@
 import { NextResponse } from 'next/server';
 import { createChunk, createDocument, updateDocumentChunkCount } from '@/lib/db';
-import { extractText } from '@/lib/parsers';
+import { extractText, detectFileType, extractXlsxKbRows } from '@/lib/parsers';
 import { generateEmbedding, chunkText } from '@/lib/ai';
 import { getSession } from '@/lib/auth';
 import { v4 as uuidv4 } from 'uuid';
 import { saveProposalUpload } from '@/lib/storage';
 
-export const maxDuration = 60; // Allow 60 seconds for larger files
+export const maxDuration = 120; // Allow 120 seconds — sequential embedding with 1 s delays
 
 export async function POST(request: Request) {
   try {
@@ -37,7 +37,7 @@ export async function POST(request: Request) {
 
     // Create DB entry for the document
     const documentId = uuidv4();
-    const fileType = file.name.toLowerCase().endsWith('.pdf') ? 'pdf' : 'docx';
+    const fileType = detectFileType(file.type, file.name) ?? 'docx';
 
     await createDocument({
       id: documentId,
@@ -47,45 +47,76 @@ export async function POST(request: Request) {
       uploadedBy: session.email,
     });
 
-    // Chunk and embed the text
-    const chunks = chunkText(text);
-    let chunkCount = 0;
+    let chunkCount  = 0;
+    let retryCount  = 0;
 
-    // Process chunks sequentially - embed each one and store
-    for (let index = 0; index < chunks.length; index++) {
-        const chunkContent = chunks[index];
-        const chunkId = uuidv4();
-        
-        try {
-            const embedding = await generateEmbedding(chunkContent);
-            await createChunk({
-              id: chunkId,
-              documentId,
-              content: chunkContent,
-              chunkIndex: index,
-              embedding: JSON.stringify(embedding),
-            });
-            chunkCount++;
-        } catch (e) {
-            // Still save the chunk text even if embedding fails
-            await createChunk({
-              id: chunkId,
-              documentId,
-              content: chunkContent,
-              chunkIndex: index,
-              embedding: null,
-            });
-            console.error(`Failed to embed chunk ${index} in document ${file.name}:`, e);
+    // Helper: 1-second delay before each embedding call; 10-second retry on 429.
+    async function embedWithDelay(text: string, label: string): Promise<string | null> {
+      await new Promise(r => setTimeout(r, 1000));
+      try {
+        const emb = await generateEmbedding(text);
+        return JSON.stringify(emb);
+      } catch (err: any) {
+        const status = err.status ?? err.response?.status;
+        if (status === 429) {
+          retryCount++;
+          console.warn(`[Upload API] 429 on ${label} — waiting 10 s before retry…`);
+          await new Promise(r => setTimeout(r, 10_000));
+          try {
+            const emb = await generateEmbedding(text);
+            return JSON.stringify(emb);
+          } catch (err2) {
+            console.error(`[Upload API] Retry also failed for ${label}:`, err2);
+            return null;
+          }
         }
+        console.error(`[Upload API] Embedding error for ${label}:`, err);
+        return null;
+      }
+    }
+
+    if (fileType === 'xlsx') {
+      const kbRows = await extractXlsxKbRows(buffer);
+
+      if (kbRows.length > 0) {
+        console.log(`[Upload API] Excel structured mode: ${kbRows.length} KB rows extracted.`);
+        for (let index = 0; index < kbRows.length; index++) {
+          const { searchText, content } = kbRows[index];
+          const chunkId   = uuidv4();
+          const embedding = await embedWithDelay(searchText, `${file.name} row ${index}`);
+          await createChunk({ id: chunkId, documentId, content, chunkIndex: index, embedding });
+          if (embedding) chunkCount++;
+        }
+      } else {
+        console.log(`[Upload API] Excel: no response column found, falling back to full-text chunking.`);
+        const chunks = chunkText(text);
+        for (let index = 0; index < chunks.length; index++) {
+          const chunkId   = uuidv4();
+          const embedding = await embedWithDelay(chunks[index], `${file.name} chunk ${index}`);
+          await createChunk({ id: chunkId, documentId, content: chunks[index], chunkIndex: index, embedding });
+          if (embedding) chunkCount++;
+        }
+      }
+    } else {
+      const chunks = chunkText(text);
+      for (let index = 0; index < chunks.length; index++) {
+        const chunkId   = uuidv4();
+        const embedding = await embedWithDelay(chunks[index], `${file.name} chunk ${index}`);
+        await createChunk({ id: chunkId, documentId, content: chunks[index], chunkIndex: index, embedding });
+        if (embedding) chunkCount++;
+      }
     }
 
     // Update chunk count
     await updateDocumentChunkCount(documentId, chunkCount);
 
-    return NextResponse.json({ 
-      success: true, 
+    const retryNote = retryCount > 0 ? ` (${retryCount} rate-limit retr${retryCount === 1 ? 'y' : 'ies'})` : '';
+    return NextResponse.json({
+      success: true,
       documentId,
-      message: `Successfully processed ${file.name} into ${chunkCount} chunks.`
+      chunks:  chunkCount,
+      retries: retryCount,
+      message: `Successfully processed ${file.name} into ${chunkCount} chunks.${retryNote}`,
     });
 
   } catch (error: any) {

@@ -1,0 +1,5276 @@
+{
+  "nodes": [
+    {
+      "id": "src_app_app_admin_knowledge_base_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_isvalidfile",
+      "label": "isValidFile()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L32"
+    },
+    {
+      "id": "page_formatbytes",
+      "label": "formatBytes()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L37"
+    },
+    {
+      "id": "page_uid",
+      "label": "uid()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L44"
+    },
+    {
+      "id": "page_addfilestoqueue",
+      "label": "addFilesToQueue()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L73"
+    },
+    {
+      "id": "page_updateitem",
+      "label": "updateItem()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L96"
+    },
+    {
+      "id": "page_clearqueue",
+      "label": "clearQueue()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L100"
+    },
+    {
+      "id": "page_runqueue",
+      "label": "runQueue()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L106"
+    },
+    {
+      "id": "page_onfiledrop",
+      "label": "onFileDrop()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L149"
+    },
+    {
+      "id": "page_onfilechange",
+      "label": "onFileChange()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L155"
+    },
+    {
+      "id": "page_toggleselect",
+      "label": "toggleSelect()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L164"
+    },
+    {
+      "id": "page_toggleselectall",
+      "label": "toggleSelectAll()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L172"
+    },
+    {
+      "id": "page_deleteselected",
+      "label": "deleteSelected()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L182"
+    },
+    {
+      "id": "page_deleteall",
+      "label": "deleteAll()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L198"
+    },
+    {
+      "id": "page_deleteone",
+      "label": "deleteOne()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L212"
+    },
+    {
+      "id": "src_app_app_admin_settings_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_fetchstatus",
+      "label": "fetchStatus()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L22"
+    },
+    {
+      "id": "page_handleupload",
+      "label": "handleUpload()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L31"
+    },
+    {
+      "id": "page_handleremove",
+      "label": "handleRemove()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L60"
+    },
+    {
+      "id": "src_app_app_admin_users_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_fetchusers",
+      "label": "fetchUsers()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "page_toggleuserstatus",
+      "label": "toggleUserStatus()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L28"
+    },
+    {
+      "id": "page_toggleuserrole",
+      "label": "toggleUserRole()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L37"
+    },
+    {
+      "id": "page_handlecreateuser",
+      "label": "handleCreateUser()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L46"
+    },
+    {
+      "id": "src_app_app_dashboard_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\dashboard\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_app_generate_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_uid",
+      "label": "uid()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L69"
+    },
+    {
+      "id": "page_confidencestyle",
+      "label": "confidenceStyle()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L94"
+    },
+    {
+      "id": "page_sendcompliance",
+      "label": "sendCompliance()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L345"
+    },
+    {
+      "id": "page_sendmessage",
+      "label": "sendMessage()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L413"
+    },
+    {
+      "id": "page_handlesend",
+      "label": "handleSend()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L473"
+    },
+    {
+      "id": "page_handlekeydown",
+      "label": "handleKeyDown()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L478"
+    },
+    {
+      "id": "page_handlefilechange",
+      "label": "handleFileChange()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L484"
+    },
+    {
+      "id": "page_copylatest",
+      "label": "copyLatest()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L498"
+    },
+    {
+      "id": "page_exportexcel",
+      "label": "exportExcel()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L505"
+    },
+    {
+      "id": "page_reset",
+      "label": "reset()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L534"
+    },
+    {
+      "id": "src_app_app_history_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_fetchproposals",
+      "label": "fetchProposals()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L25"
+    },
+    {
+      "id": "page_deleteproposal",
+      "label": "deleteProposal()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L34"
+    },
+    {
+      "id": "page_copyoutput",
+      "label": "copyOutput()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L44"
+    },
+    {
+      "id": "page_exportword",
+      "label": "exportWord()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L51"
+    },
+    {
+      "id": "src_app_app_layout_tsx",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout_applayout",
+      "label": "AppLayout()",
+      "file_type": "code",
+      "source_file": "src\\app\\(app)\\layout.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_app_auth_login_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\(auth)\\login\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_handlesubmit",
+      "label": "handleSubmit()",
+      "file_type": "code",
+      "source_file": "src\\app\\(auth)\\login\\page.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "src_app_api_admin_chunk_inspect_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\chunk-inspect\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\chunk-inspect\\route.ts",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_app_api_admin_compliance_debug_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_cosinesimilarity",
+      "label": "cosineSimilarity()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L11"
+    },
+    {
+      "id": "route_scorecolor",
+      "label": "scoreColor()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L20"
+    },
+    {
+      "id": "route_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L27"
+    },
+    {
+      "id": "route_eschtml",
+      "label": "escHtml()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L132"
+    },
+    {
+      "id": "src_app_api_admin_knowledge_base_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "route_delete",
+      "label": "DELETE()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L20"
+    },
+    {
+      "id": "src_app_api_admin_settings_template_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_extractattr",
+      "label": "extractAttr()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "route_parsestyleblock",
+      "label": "parseStyleBlock()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L17"
+    },
+    {
+      "id": "route_extractstylesfromxml",
+      "label": "extractStylesFromXml()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L37"
+    },
+    {
+      "id": "route_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L89"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L111"
+    },
+    {
+      "id": "route_delete",
+      "label": "DELETE()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L160"
+    },
+    {
+      "id": "src_app_api_admin_users_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L20"
+    },
+    {
+      "id": "route_patch",
+      "label": "PATCH()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L55"
+    },
+    {
+      "id": "src_app_api_auth_login_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\auth\\login\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\auth\\login\\route.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "src_app_api_auth_logout_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\auth\\logout\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\auth\\logout\\route.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_app_api_compliance_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\compliance\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\compliance\\route.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_app_api_export_excel_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_argb",
+      "label": "argb()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L26"
+    },
+    {
+      "id": "route_solidfill",
+      "label": "solidFill()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L30"
+    },
+    {
+      "id": "route_thinborder",
+      "label": "thinBorder()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L34"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L39"
+    },
+    {
+      "id": "src_app_api_export_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "src_app_api_generate_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\generate\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\generate\\route.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_app_api_knowledge_base_upload_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L11"
+    },
+    {
+      "id": "src_app_api_proposals_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "route_delete",
+      "label": "DELETE()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_app_layout_tsx",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_app_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_homepage",
+      "label": "HomePage()",
+      "file_type": "code",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_components_sidebar_tsx",
+      "label": "Sidebar.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\Sidebar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "sidebar_handlelogout",
+      "label": "handleLogout()",
+      "file_type": "code",
+      "source_file": "src\\components\\Sidebar.tsx",
+      "source_location": "L41"
+    },
+    {
+      "id": "src_lib_ai_ts",
+      "label": "ai.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "ai_generateembedding",
+      "label": "generateEmbedding()",
+      "file_type": "code",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "ai_chunktext",
+      "label": "chunkText()",
+      "file_type": "code",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L47"
+    },
+    {
+      "id": "ai_cosinesimilarity",
+      "label": "cosineSimilarity()",
+      "file_type": "code",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L87"
+    },
+    {
+      "id": "ai_searchsimilarchunks",
+      "label": "searchSimilarChunks()",
+      "file_type": "code",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L100"
+    },
+    {
+      "id": "ai_savegeneratedproposal",
+      "label": "saveGeneratedProposal()",
+      "file_type": "code",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L129"
+    },
+    {
+      "id": "ai_callgemini",
+      "label": "callGemini()",
+      "file_type": "code",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L143"
+    },
+    {
+      "id": "ai_generateproposal",
+      "label": "generateProposal()",
+      "file_type": "code",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L172"
+    },
+    {
+      "id": "src_lib_auth_ts",
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_encrypt",
+      "label": "encrypt()",
+      "file_type": "code",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "auth_decrypt",
+      "label": "decrypt()",
+      "file_type": "code",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "auth_getsession",
+      "label": "getSession()",
+      "file_type": "code",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L22"
+    },
+    {
+      "id": "auth_login",
+      "label": "login()",
+      "file_type": "code",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L32"
+    },
+    {
+      "id": "auth_logout",
+      "label": "logout()",
+      "file_type": "code",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L45"
+    },
+    {
+      "id": "src_lib_compliance_ts",
+      "label": "compliance.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "compliance_cosinesimilarity",
+      "label": "cosineSimilarity()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L23"
+    },
+    {
+      "id": "compliance_infercompliance",
+      "label": "inferCompliance()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L36"
+    },
+    {
+      "id": "compliance_extractrequirementsfromexcel",
+      "label": "extractRequirementsFromExcel()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L47"
+    },
+    {
+      "id": "compliance_expandrequirementforretrieval",
+      "label": "expandRequirementForRetrieval()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L113"
+    },
+    {
+      "id": "compliance_parsereqtext",
+      "label": "parseReqText()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L122"
+    },
+    {
+      "id": "compliance_deriveshortquery",
+      "label": "deriveShortQuery()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L133"
+    },
+    {
+      "id": "compliance_extractcompliancetag",
+      "label": "extractComplianceTag()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L151"
+    },
+    {
+      "id": "compliance_complianceweight",
+      "label": "complianceWeight()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L161"
+    },
+    {
+      "id": "compliance_weightedcompliancefromtopchunks",
+      "label": "weightedComplianceFromTopChunks()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L173"
+    },
+    {
+      "id": "compliance_enforcetopchunkprimacy",
+      "label": "enforceTopChunkPrimacy()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L207"
+    },
+    {
+      "id": "compliance_selecttopdocoptions",
+      "label": "selectTopDocOptions()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L231"
+    },
+    {
+      "id": "compliance_searchforrequirement",
+      "label": "searchForRequirement()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L250"
+    },
+    {
+      "id": "compliance_containsclientreference",
+      "label": "containsClientReference()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L350"
+    },
+    {
+      "id": "compliance_sanitiseoption",
+      "label": "sanitiseOption()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L380"
+    },
+    {
+      "id": "compliance_synthesisewithgemini",
+      "label": "synthesiseWithGemini()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L433"
+    },
+    {
+      "id": "compliance_buildcompliancerows",
+      "label": "buildComplianceRows()",
+      "file_type": "code",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L598"
+    },
+    {
+      "id": "src_lib_db_ts",
+      "label": "db.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "db_getdatabaseurl",
+      "label": "getDatabaseUrl()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L50"
+    },
+    {
+      "id": "db_getdbclient",
+      "label": "getDbClient()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L54"
+    },
+    {
+      "id": "db_row",
+      "label": "row()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L68"
+    },
+    {
+      "id": "db_initializedb",
+      "label": "initializeDb()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L72"
+    },
+    {
+      "id": "db_seedadmin",
+      "label": "seedAdmin()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L141"
+    },
+    {
+      "id": "db_ensuredb",
+      "label": "ensureDb()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L163"
+    },
+    {
+      "id": "db_getsetting",
+      "label": "getSetting()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L172"
+    },
+    {
+      "id": "db_setsetting",
+      "label": "setSetting()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L182"
+    },
+    {
+      "id": "db_getuserbyemail",
+      "label": "getUserByEmail()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L194"
+    },
+    {
+      "id": "db_listusers",
+      "label": "listUsers()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L204"
+    },
+    {
+      "id": "db_createuser",
+      "label": "createUser()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L210"
+    },
+    {
+      "id": "db_updateuserstatus",
+      "label": "updateUserStatus()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L230"
+    },
+    {
+      "id": "db_updateuserrole",
+      "label": "updateUserRole()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L238"
+    },
+    {
+      "id": "db_countdocuments",
+      "label": "countDocuments()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L246"
+    },
+    {
+      "id": "db_countactiveusers",
+      "label": "countActiveUsers()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L252"
+    },
+    {
+      "id": "db_countuserproposals",
+      "label": "countUserProposals()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L258"
+    },
+    {
+      "id": "db_listrecentuserproposals",
+      "label": "listRecentUserProposals()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L267"
+    },
+    {
+      "id": "db_listuserproposals",
+      "label": "listUserProposals()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L283"
+    },
+    {
+      "id": "db_getuserproposalbyid",
+      "label": "getUserProposalById()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L293"
+    },
+    {
+      "id": "db_createproposal",
+      "label": "createProposal()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L303"
+    },
+    {
+      "id": "db_deleteuserproposal",
+      "label": "deleteUserProposal()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L324"
+    },
+    {
+      "id": "db_listdocuments",
+      "label": "listDocuments()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L332"
+    },
+    {
+      "id": "db_getdocumentbyid",
+      "label": "getDocumentById()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L343"
+    },
+    {
+      "id": "db_createdocument",
+      "label": "createDocument()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L353"
+    },
+    {
+      "id": "db_createchunk",
+      "label": "createChunk()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L370"
+    },
+    {
+      "id": "db_updatedocumentchunkcount",
+      "label": "updateDocumentChunkCount()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L387"
+    },
+    {
+      "id": "db_deletealldocuments",
+      "label": "deleteAllDocuments()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L395"
+    },
+    {
+      "id": "db_deletedocument",
+      "label": "deleteDocument()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L403"
+    },
+    {
+      "id": "db_listchunksearchrecords",
+      "label": "listChunkSearchRecords()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L417"
+    },
+    {
+      "id": "db_listchunksearchrecordswithdoc",
+      "label": "listChunkSearchRecordsWithDoc()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L429"
+    },
+    {
+      "id": "db_hasuserwithemail",
+      "label": "hasUserWithEmail()",
+      "file_type": "code",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L442"
+    },
+    {
+      "id": "src_lib_export_ts",
+      "label": "export.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "export_fillcolor",
+      "label": "fillColor()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L42"
+    },
+    {
+      "id": "export_derivefilename",
+      "label": "deriveFilename()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L101"
+    },
+    {
+      "id": "export_derivemetadata",
+      "label": "deriveMetadata()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L109"
+    },
+    {
+      "id": "export_parseinline",
+      "label": "parseInline()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L136"
+    },
+    {
+      "id": "export_buildcoverpage",
+      "label": "buildCoverPage()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L197"
+    },
+    {
+      "id": "export_buildpageheader",
+      "label": "buildPageHeader()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L321"
+    },
+    {
+      "id": "export_buildpagefooter",
+      "label": "buildPageFooter()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L342"
+    },
+    {
+      "id": "export_splittablerow",
+      "label": "splitTableRow()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L367"
+    },
+    {
+      "id": "export_isseparatorrow",
+      "label": "isSeparatorRow()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L371"
+    },
+    {
+      "id": "export_buildcontenttable",
+      "label": "buildContentTable()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L375"
+    },
+    {
+      "id": "export_builddocxchildren",
+      "label": "buildDocxChildren()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L427"
+    },
+    {
+      "id": "export_builddocument",
+      "label": "buildDocument()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L555"
+    },
+    {
+      "id": "export_exportmarkdowntodocx",
+      "label": "exportMarkdownToDocx()",
+      "file_type": "code",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L628"
+    },
+    {
+      "id": "src_lib_parsers_ts",
+      "label": "parsers.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "parsers_parsepdf",
+      "label": "parsePdf()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "parsers_parsedocx",
+      "label": "parseDocx()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L27"
+    },
+    {
+      "id": "parsers_parsexlsx",
+      "label": "parseXlsx()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L42"
+    },
+    {
+      "id": "parsers_lookslikecompliancevalue",
+      "label": "looksLikeComplianceValue()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L105"
+    },
+    {
+      "id": "parsers_normalizecompliancevalue",
+      "label": "normalizeComplianceValue()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L124"
+    },
+    {
+      "id": "parsers_detectcolumnswithgemini",
+      "label": "detectColumnsWithGemini()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L135"
+    },
+    {
+      "id": "parsers_extractxlsxkbrows",
+      "label": "extractXlsxKbRows()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L176"
+    },
+    {
+      "id": "parsers_parsepptx",
+      "label": "parsePptx()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L384"
+    },
+    {
+      "id": "parsers_extractxmltext",
+      "label": "extractXmlText()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L436"
+    },
+    {
+      "id": "parsers_detectfiletype",
+      "label": "detectFileType()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L466"
+    },
+    {
+      "id": "parsers_extracttext",
+      "label": "extractText()",
+      "file_type": "code",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L495"
+    },
+    {
+      "id": "src_lib_storage_ts",
+      "label": "storage.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "storage_normalizeblobpath",
+      "label": "normalizeBlobPath()",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "storage_makesafefilename",
+      "label": "makeSafeFilename()",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L11"
+    },
+    {
+      "id": "storage_storagebackend",
+      "label": "storageBackend()",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "storage_ensurelocaldir",
+      "label": "ensureLocalDir()",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L19"
+    },
+    {
+      "id": "storage_saveblob",
+      "label": "saveBlob()",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L25"
+    },
+    {
+      "id": "storage_saveproposalupload",
+      "label": "saveProposalUpload()",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L36"
+    },
+    {
+      "id": "storage_removestoredfile",
+      "label": "removeStoredFile()",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L49"
+    },
+    {
+      "id": "storage_savemastertemplate",
+      "label": "saveMasterTemplate()",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L62"
+    },
+    {
+      "id": "storage_localtemplateexists",
+      "label": "localTemplateExists()",
+      "file_type": "code",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L73"
+    },
+    {
+      "id": "src_middleware_ts",
+      "label": "middleware.ts",
+      "file_type": "code",
+      "source_file": "src\\middleware.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "middleware_verifysession",
+      "label": "verifySession()",
+      "file_type": "code",
+      "source_file": "src\\middleware.ts",
+      "source_location": "L8"
+    },
+    {
+      "id": "middleware_middleware",
+      "label": "middleware()",
+      "file_type": "code",
+      "source_file": "src\\middleware.ts",
+      "source_location": "L19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_isvalidfile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_formatbytes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_uid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_addfilestoqueue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_updateitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_clearqueue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_runqueue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_onfiledrop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_onfilechange",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_toggleselect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_toggleselectall",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_deleteselected",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_deleteall",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_knowledge_base_page_tsx",
+      "target": "page_deleteone",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L212",
+      "weight": 1.0
+    },
+    {
+      "source": "page_runqueue",
+      "target": "page_updateitem",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "page_onfiledrop",
+      "target": "page_addfilestoqueue",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "page_onfilechange",
+      "target": "page_addfilestoqueue",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\knowledge-base\\page.tsx",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_settings_page_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_settings_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_settings_page_tsx",
+      "target": "page_fetchstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_settings_page_tsx",
+      "target": "page_handleupload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_settings_page_tsx",
+      "target": "page_handleremove",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "page_handleupload",
+      "target": "page_fetchstatus",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "page_handleremove",
+      "target": "page_fetchstatus",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\settings\\page.tsx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_users_page_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_users_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_users_page_tsx",
+      "target": "page_fetchusers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_users_page_tsx",
+      "target": "page_toggleuserstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_users_page_tsx",
+      "target": "page_toggleuserrole",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_admin_users_page_tsx",
+      "target": "page_handlecreateuser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "page_toggleuserstatus",
+      "target": "page_fetchusers",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "page_toggleuserrole",
+      "target": "page_fetchusers",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "page_handlecreateuser",
+      "target": "page_fetchusers",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\admin\\users\\page.tsx",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_dashboard_page_tsx",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\dashboard\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_dashboard_page_tsx",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\dashboard\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_dashboard_page_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\dashboard\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_dashboard_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\dashboard\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "react_markdown",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "remark_gfm",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "compliance",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_uid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_confidencestyle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_sendcompliance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L345",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_sendmessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L413",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_handlesend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L473",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_handlekeydown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L478",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_handlefilechange",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L484",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_copylatest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L498",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_exportexcel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L505",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_generate_page_tsx",
+      "target": "page_reset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L534",
+      "weight": 1.0
+    },
+    {
+      "source": "page_sendcompliance",
+      "target": "page_uid",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "page_sendmessage",
+      "target": "page_uid",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L418",
+      "weight": 1.0
+    },
+    {
+      "source": "page_handlesend",
+      "target": "page_sendcompliance",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L474",
+      "weight": 1.0
+    },
+    {
+      "source": "page_handlesend",
+      "target": "page_sendmessage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L475",
+      "weight": 1.0
+    },
+    {
+      "source": "page_handlekeydown",
+      "target": "page_handlesend",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L479",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_history_page_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_history_page_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_history_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_history_page_tsx",
+      "target": "page_fetchproposals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_history_page_tsx",
+      "target": "page_deleteproposal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_history_page_tsx",
+      "target": "page_copyoutput",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_history_page_tsx",
+      "target": "page_exportword",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_layout_tsx",
+      "target": "sidebar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_layout_tsx",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_layout_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_layout_tsx",
+      "target": "layout_applayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(app)\\layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_auth_login_page_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(auth)\\login\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_auth_login_page_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(auth)\\login\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_auth_login_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(auth)\\login\\page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_auth_login_page_tsx",
+      "target": "page_handlesubmit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\(auth)\\login\\page.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_chunk_inspect_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\chunk-inspect\\route.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_chunk_inspect_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\chunk-inspect\\route.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_chunk_inspect_route_ts",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\chunk-inspect\\route.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_chunk_inspect_route_ts",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\chunk-inspect\\route.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_compliance_debug_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_compliance_debug_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_compliance_debug_route_ts",
+      "target": "ai",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_compliance_debug_route_ts",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_compliance_debug_route_ts",
+      "target": "route_cosinesimilarity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_compliance_debug_route_ts",
+      "target": "route_scorecolor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_compliance_debug_route_ts",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_compliance_debug_route_ts",
+      "target": "route_eschtml",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "route_eschtml",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_knowledge_base_route_ts",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_knowledge_base_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_knowledge_base_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_knowledge_base_route_ts",
+      "target": "storage",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_knowledge_base_route_ts",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_knowledge_base_route_ts",
+      "target": "route_delete",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "route_get",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "export",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "storage",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "route_extractattr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "route_parsestyleblock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "route_extractstylesfromxml",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_settings_template_route_ts",
+      "target": "route_delete",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "route_parsestyleblock",
+      "target": "route_extractattr",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "route_extractstylesfromxml",
+      "target": "route_extractattr",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "route_extractstylesfromxml",
+      "target": "route_parsestyleblock",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "route_get",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "route_extractstylesfromxml",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_users_route_ts",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_users_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_users_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_users_route_ts",
+      "target": "bcryptjs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_users_route_ts",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_users_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_users_route_ts",
+      "target": "route_patch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_login_route_ts",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\auth\\login\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_login_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\auth\\login\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_login_route_ts",
+      "target": "bcryptjs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\auth\\login\\route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_login_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\auth\\login\\route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_login_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\auth\\login\\route.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_logout_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\auth\\logout\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_logout_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\auth\\logout\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_logout_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\auth\\logout\\route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_compliance_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\compliance\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_compliance_route_ts",
+      "target": "compliance",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\compliance\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_compliance_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\compliance\\route.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_excel_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_excel_route_ts",
+      "target": "exceljs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_excel_route_ts",
+      "target": "compliance",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_excel_route_ts",
+      "target": "route_argb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_excel_route_ts",
+      "target": "route_solidfill",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_excel_route_ts",
+      "target": "route_thinborder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_excel_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "route_solidfill",
+      "target": "route_argb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "route_thinborder",
+      "target": "route_argb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "route_solidfill",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "route_argb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\excel\\route.ts",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_route_ts",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_route_ts",
+      "target": "export",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_route_ts",
+      "target": "docx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_export_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_generate_route_ts",
+      "target": "ai",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\generate\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_generate_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\generate\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_generate_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\generate\\route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_knowledge_base_upload_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_knowledge_base_upload_route_ts",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_knowledge_base_upload_route_ts",
+      "target": "parsers",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_knowledge_base_upload_route_ts",
+      "target": "ai",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_knowledge_base_upload_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_knowledge_base_upload_route_ts",
+      "target": "uuid",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_knowledge_base_upload_route_ts",
+      "target": "storage",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_knowledge_base_upload_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_proposals_route_ts",
+      "target": "db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_proposals_route_ts",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_proposals_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_proposals_route_ts",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_proposals_route_ts",
+      "target": "route_delete",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "route_get",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "src_app_globals_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "page_homepage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_sidebar_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\Sidebar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_sidebar_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\Sidebar.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_sidebar_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\Sidebar.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_sidebar_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\Sidebar.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_sidebar_tsx",
+      "target": "sidebar_handlelogout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\Sidebar.tsx",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_ai_ts",
+      "target": "genai",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_ai_ts",
+      "target": "src_lib_db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_ai_ts",
+      "target": "ai_generateembedding",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_ai_ts",
+      "target": "ai_chunktext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_ai_ts",
+      "target": "ai_cosinesimilarity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_ai_ts",
+      "target": "ai_searchsimilarchunks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_ai_ts",
+      "target": "ai_savegeneratedproposal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_ai_ts",
+      "target": "ai_callgemini",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_ai_ts",
+      "target": "ai_generateproposal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_searchsimilarchunks",
+      "target": "ai_generateembedding",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "jose",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "headers",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "auth_encrypt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "auth_decrypt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "auth_getsession",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "auth_login",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "auth_logout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_getsession",
+      "target": "auth_decrypt",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_login",
+      "target": "auth_encrypt",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "xlsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "src_lib_ai",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "src_lib_db",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_cosinesimilarity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_infercompliance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_extractrequirementsfromexcel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_expandrequirementforretrieval",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_parsereqtext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_deriveshortquery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_extractcompliancetag",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_complianceweight",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_weightedcompliancefromtopchunks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_enforcetopchunkprimacy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_selecttopdocoptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_searchforrequirement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_containsclientreference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L350",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_sanitiseoption",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_synthesisewithgemini",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L433",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_compliance_ts",
+      "target": "compliance_buildcompliancerows",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L598",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_weightedcompliancefromtopchunks",
+      "target": "compliance_extractcompliancetag",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_weightedcompliancefromtopchunks",
+      "target": "compliance_complianceweight",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L189",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_enforcetopchunkprimacy",
+      "target": "compliance_extractcompliancetag",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_searchforrequirement",
+      "target": "compliance_expandrequirementforretrieval",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_searchforrequirement",
+      "target": "compliance_deriveshortquery",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L274",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_searchforrequirement",
+      "target": "compliance_parsereqtext",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L299",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_synthesisewithgemini",
+      "target": "compliance_containsclientreference",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L569",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_synthesisewithgemini",
+      "target": "compliance_sanitiseoption",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L570",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_synthesisewithgemini",
+      "target": "compliance_infercompliance",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L587",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_buildcompliancerows",
+      "target": "compliance_searchforrequirement",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L605",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_buildcompliancerows",
+      "target": "compliance_selecttopdocoptions",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L631",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_buildcompliancerows",
+      "target": "compliance_synthesisewithgemini",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L632",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_buildcompliancerows",
+      "target": "compliance_weightedcompliancefromtopchunks",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L633",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_buildcompliancerows",
+      "target": "compliance_enforcetopchunkprimacy",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L639",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "bcryptjs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "uuid",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_getdatabaseurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_getdbclient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_row",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_initializedb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_seedadmin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_ensuredb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_getsetting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_setsetting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_getuserbyemail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_listusers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_createuser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_updateuserstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_updateuserrole",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_countdocuments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L246",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_countactiveusers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_countuserproposals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_listrecentuserproposals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_listuserproposals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L283",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_getuserproposalbyid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L293",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_createproposal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L303",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_deleteuserproposal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L324",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_listdocuments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L332",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_getdocumentbyid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L343",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_createdocument",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_createchunk",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L370",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_updatedocumentchunkcount",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L387",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_deletealldocuments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L395",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_deletedocument",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L403",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_listchunksearchrecords",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L417",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_listchunksearchrecordswithdoc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L429",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_db_ts",
+      "target": "db_hasuserwithemail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L442",
+      "weight": 1.0
+    },
+    {
+      "source": "db_getdbclient",
+      "target": "db_getdatabaseurl",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "db_initializedb",
+      "target": "db_getdbclient",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "db_initializedb",
+      "target": "db_seedadmin",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "db_seedadmin",
+      "target": "db_getdbclient",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "db_ensuredb",
+      "target": "db_initializedb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "db_ensuredb",
+      "target": "db_getdbclient",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "db_getsetting",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "db_setsetting",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "db_getuserbyemail",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "db_getuserbyemail",
+      "target": "db_row",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "db_listusers",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "db_createuser",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "db_updateuserstatus",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "db_updateuserrole",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "db_countdocuments",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "db_countactiveusers",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L253",
+      "weight": 1.0
+    },
+    {
+      "source": "db_countuserproposals",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "db_listrecentuserproposals",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "db_listuserproposals",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L284",
+      "weight": 1.0
+    },
+    {
+      "source": "db_getuserproposalbyid",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "db_getuserproposalbyid",
+      "target": "db_row",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "db_createproposal",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L310",
+      "weight": 1.0
+    },
+    {
+      "source": "db_deleteuserproposal",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "db_listdocuments",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L333",
+      "weight": 1.0
+    },
+    {
+      "source": "db_getdocumentbyid",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L344",
+      "weight": 1.0
+    },
+    {
+      "source": "db_getdocumentbyid",
+      "target": "db_row",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L350",
+      "weight": 1.0
+    },
+    {
+      "source": "db_createdocument",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "db_createchunk",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L377",
+      "weight": 1.0
+    },
+    {
+      "source": "db_updatedocumentchunkcount",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L388",
+      "weight": 1.0
+    },
+    {
+      "source": "db_deletealldocuments",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L396",
+      "weight": 1.0
+    },
+    {
+      "source": "db_deletedocument",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L404",
+      "weight": 1.0
+    },
+    {
+      "source": "db_listchunksearchrecords",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L418",
+      "weight": 1.0
+    },
+    {
+      "source": "db_listchunksearchrecordswithdoc",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "db_hasuserwithemail",
+      "target": "db_ensuredb",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\db.ts",
+      "source_location": "L443",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "docx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "file_saver",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_fillcolor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_derivefilename",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_derivemetadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_parseinline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_buildcoverpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_buildpageheader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_buildpagefooter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L342",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_splittablerow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L367",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_isseparatorrow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L371",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_buildcontenttable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L375",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_builddocxchildren",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L427",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_builddocument",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L555",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_export_ts",
+      "target": "export_exportmarkdowntodocx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L628",
+      "weight": 1.0
+    },
+    {
+      "source": "export_buildcoverpage",
+      "target": "export_fillcolor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "export_buildcontenttable",
+      "target": "export_splittablerow",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L376",
+      "weight": 1.0
+    },
+    {
+      "source": "export_builddocxchildren",
+      "target": "export_isseparatorrow",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L445",
+      "weight": 1.0
+    },
+    {
+      "source": "export_builddocxchildren",
+      "target": "export_buildcontenttable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L452",
+      "weight": 1.0
+    },
+    {
+      "source": "export_builddocxchildren",
+      "target": "export_parseinline",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L471",
+      "weight": 1.0
+    },
+    {
+      "source": "export_builddocxchildren",
+      "target": "export_fillcolor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L508",
+      "weight": 1.0
+    },
+    {
+      "source": "export_builddocument",
+      "target": "export_derivemetadata",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L561",
+      "weight": 1.0
+    },
+    {
+      "source": "export_builddocument",
+      "target": "export_buildpageheader",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L562",
+      "weight": 1.0
+    },
+    {
+      "source": "export_builddocument",
+      "target": "export_buildpagefooter",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L563",
+      "weight": 1.0
+    },
+    {
+      "source": "export_builddocument",
+      "target": "export_buildcoverpage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L603",
+      "weight": 1.0
+    },
+    {
+      "source": "export_builddocument",
+      "target": "export_builddocxchildren",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L620",
+      "weight": 1.0
+    },
+    {
+      "source": "export_exportmarkdowntodocx",
+      "target": "export_derivefilename",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L633",
+      "weight": 1.0
+    },
+    {
+      "source": "export_exportmarkdowntodocx",
+      "target": "export_builddocument",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\export.ts",
+      "source_location": "L634",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "mammoth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "xlsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "jszip",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "src_lib_ai",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_parsepdf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_parsedocx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_parsexlsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_lookslikecompliancevalue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_normalizecompliancevalue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_detectcolumnswithgemini",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_extractxlsxkbrows",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_parsepptx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L384",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_extractxmltext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L436",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_detectfiletype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L466",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_parsers_ts",
+      "target": "parsers_extracttext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L495",
+      "weight": 1.0
+    },
+    {
+      "source": "parsers_extractxlsxkbrows",
+      "target": "parsers_detectcolumnswithgemini",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "parsers_extractxlsxkbrows",
+      "target": "parsers_normalizecompliancevalue",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L318",
+      "weight": 1.0
+    },
+    {
+      "source": "parsers_parsepptx",
+      "target": "parsers_extractxmltext",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L404",
+      "weight": 1.0
+    },
+    {
+      "source": "parsers_extracttext",
+      "target": "parsers_detectfiletype",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L496",
+      "weight": 1.0
+    },
+    {
+      "source": "parsers_extracttext",
+      "target": "parsers_parsepdf",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L499",
+      "weight": 1.0
+    },
+    {
+      "source": "parsers_extracttext",
+      "target": "parsers_parsedocx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L500",
+      "weight": 1.0
+    },
+    {
+      "source": "parsers_extracttext",
+      "target": "parsers_parsexlsx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L501",
+      "weight": 1.0
+    },
+    {
+      "source": "parsers_extracttext",
+      "target": "parsers_parsepptx",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L502",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "blob",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "fs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "path",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "storage_normalizeblobpath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "storage_makesafefilename",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "storage_storagebackend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "storage_ensurelocaldir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "storage_saveblob",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "storage_saveproposalupload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "storage_removestoredfile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "storage_savemastertemplate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_storage_ts",
+      "target": "storage_localtemplateexists",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_saveblob",
+      "target": "storage_normalizeblobpath",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_saveproposalupload",
+      "target": "storage_storagebackend",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_saveproposalupload",
+      "target": "storage_saveblob",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_saveproposalupload",
+      "target": "storage_makesafefilename",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_saveproposalupload",
+      "target": "storage_ensurelocaldir",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_removestoredfile",
+      "target": "storage_storagebackend",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_savemastertemplate",
+      "target": "storage_storagebackend",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_savemastertemplate",
+      "target": "storage_saveblob",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_savemastertemplate",
+      "target": "storage_ensurelocaldir",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "storage_localtemplateexists",
+      "target": "storage_storagebackend",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\storage.ts",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "src_middleware_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\middleware.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_middleware_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\middleware.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_middleware_ts",
+      "target": "jose",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\middleware.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_middleware_ts",
+      "target": "middleware_verifysession",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\middleware.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_middleware_ts",
+      "target": "middleware_middleware",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\middleware.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_middleware",
+      "target": "middleware_verifysession",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\middleware.ts",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "page_exportexcel",
+      "target": "route_get",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\(app)\\generate\\page.tsx",
+      "source_location": "L516",
+      "weight": 1.0
+    },
+    {
+      "source": "page_exportword",
+      "target": "route_get",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\(app)\\history\\page.tsx",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_applayout",
+      "target": "auth_getsession",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\(app)\\layout.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "auth_getsession",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\chunk-inspect\\route.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "db_listchunksearchrecordswithdoc",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\chunk-inspect\\route.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "ai_generateembedding",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\compliance-debug\\route.ts",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "db_listdocuments",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "auth_getsession",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "db_listdocuments",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "db_deletealldocuments",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "db_getdocumentbyid",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "db_deletedocument",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "storage_removestoredfile",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\knowledge-base\\route.ts",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "db_getsetting",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "storage_localtemplateexists",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "auth_getsession",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "storage_savemastertemplate",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "db_setsetting",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "db_getsetting",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "db_setsetting",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\settings\\template\\route.ts",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "db_listusers",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "db_hasuserwithemail",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "db_createuser",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "route_patch",
+      "target": "auth_getsession",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "route_patch",
+      "target": "db_updateuserstatus",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "route_patch",
+      "target": "db_updateuserrole",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\admin\\users\\route.ts",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "db_getuserbyemail",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\auth\\login\\route.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "auth_login",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\auth\\login\\route.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "auth_logout",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\auth\\logout\\route.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "compliance_extractrequirementsfromexcel",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\compliance\\route.ts",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "compliance_buildcompliancerows",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\compliance\\route.ts",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "db_getsetting",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "export_derivefilename",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "export_builddocument",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\export\\route.ts",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "ai_searchsimilarchunks",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\generate\\route.ts",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "ai_generateproposal",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\generate\\route.ts",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "parsers_extracttext",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "storage_saveproposalupload",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "parsers_detectfiletype",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "db_createdocument",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "parsers_extractxlsxkbrows",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "db_createchunk",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "ai_chunktext",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "route_post",
+      "target": "db_updatedocumentchunkcount",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\knowledge-base\\upload\\route.ts",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "db_getuserproposalbyid",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "route_get",
+      "target": "db_listuserproposals",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "route_delete",
+      "target": "db_deleteuserproposal",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\api\\proposals\\route.ts",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "page_homepage",
+      "target": "auth_getsession",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_searchsimilarchunks",
+      "target": "db_listchunksearchrecords",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_savegeneratedproposal",
+      "target": "db_createproposal",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\ai.ts",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "auth_getsession",
+      "target": "route_get",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\auth.ts",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_searchforrequirement",
+      "target": "ai_generateembedding",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_searchforrequirement",
+      "target": "db_listchunksearchrecordswithdoc",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L253",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_searchforrequirement",
+      "target": "route_get",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L292",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_sanitiseoption",
+      "target": "ai_callgemini",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L404",
+      "weight": 1.0
+    },
+    {
+      "source": "compliance_synthesisewithgemini",
+      "target": "ai_callgemini",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\compliance.ts",
+      "source_location": "L523",
+      "weight": 1.0
+    },
+    {
+      "source": "parsers_detectcolumnswithgemini",
+      "target": "ai_callgemini",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\parsers.ts",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "middleware_verifysession",
+      "target": "route_get",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\middleware.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
